@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1531F67F26467DF7001DFF95 /* GenericMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1531F67E26467DF7001DFF95 /* GenericMethods.swift */; };
+		1531F68C264697C2001DFF95 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1531F68B264697C2001DFF95 /* CommentViewController.swift */; };
+		1531F6D426469A45001DFF95 /* Virtusa_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1531F6D326469A45001DFF95 /* Virtusa_TaskTests.swift */; };
+		1531F6DE26469A7B001DFF95 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1531F6DD26469A7B001DFF95 /* ViewControllerTests.swift */; };
+		1531F6E926469B03001DFF95 /* CommentViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1531F6E826469B03001DFF95 /* CommentViewControllerTests.swift */; };
+		1531F6ED26469E1F001DFF95 /* NameEmailTableViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1531F6EC26469E1F001DFF95 /* NameEmailTableViewCellTests.swift */; };
+		1531F6F126469FE3001DFF95 /* UtilitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1531F6F026469FE3001DFF95 /* UtilitiesTests.swift */; };
+		1531F6F52646A0AB001DFF95 /* Posts.json in Resources */ = {isa = PBXBuildFile; fileRef = 1531F6F42646A0AB001DFF95 /* Posts.json */; };
+		1531F6FB2646A248001DFF95 /* ResultModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1531F6FA2646A248001DFF95 /* ResultModelTests.swift */; };
+		1531F6FF2646A2D7001DFF95 /* PostCommentsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1531F6FE2646A2D7001DFF95 /* PostCommentsViewModelTests.swift */; };
+		154B029A26465314000C8374 /* ResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154B029926465314000C8374 /* ResultModel.swift */; };
+		154B02AF264662A6000C8374 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154B02AE264662A6000C8374 /* Constants.swift */; };
+		154B02B2264662CB000C8374 /* ServiceUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154B02B1264662CB000C8374 /* ServiceUrl.swift */; };
+		154B02B52646643A000C8374 /* PostCommentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154B02B42646643A000C8374 /* PostCommentsViewModel.swift */; };
+		154B02BC2646698F000C8374 /* PostCommentsServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154B02BB2646698F000C8374 /* PostCommentsServiceManager.swift */; };
+		154B02BF26466A8A000C8374 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154B02BE26466A8A000C8374 /* Utilities.swift */; };
+		15BC2233264642B7003361A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BC2232264642B7003361A1 /* AppDelegate.swift */; };
+		15BC2235264642B7003361A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BC2234264642B7003361A1 /* SceneDelegate.swift */; };
+		15BC2237264642B7003361A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BC2236264642B7003361A1 /* ViewController.swift */; };
+		15BC223A264642B7003361A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15BC2238264642B7003361A1 /* Main.storyboard */; };
+		15BC223C264642BC003361A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15BC223B264642BC003361A1 /* Assets.xcassets */; };
+		15BC223F264642BC003361A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15BC223D264642BC003361A1 /* LaunchScreen.storyboard */; };
+		15BC224D2646435B003361A1 /* NameEmailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BC224B2646435B003361A1 /* NameEmailTableViewCell.swift */; };
+		15BC224E2646435B003361A1 /* NameEmailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15BC224C2646435B003361A1 /* NameEmailTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1531F6D626469A45001DFF95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15BC2227264642B7003361A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15BC222E264642B7003361A1;
+			remoteInfo = Virtusa_Task;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1531F67E26467DF7001DFF95 /* GenericMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericMethods.swift; sourceTree = "<group>"; };
+		1531F68B264697C2001DFF95 /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		1531F6D126469A45001DFF95 /* Virtusa_TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Virtusa_TaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1531F6D326469A45001DFF95 /* Virtusa_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Virtusa_TaskTests.swift; sourceTree = "<group>"; };
+		1531F6D526469A45001DFF95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1531F6DD26469A7B001DFF95 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		1531F6E826469B03001DFF95 /* CommentViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewControllerTests.swift; sourceTree = "<group>"; };
+		1531F6EC26469E1F001DFF95 /* NameEmailTableViewCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameEmailTableViewCellTests.swift; sourceTree = "<group>"; };
+		1531F6F026469FE3001DFF95 /* UtilitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilitiesTests.swift; sourceTree = "<group>"; };
+		1531F6F42646A0AB001DFF95 /* Posts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Posts.json; sourceTree = "<group>"; };
+		1531F6FA2646A248001DFF95 /* ResultModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultModelTests.swift; sourceTree = "<group>"; };
+		1531F6FE2646A2D7001DFF95 /* PostCommentsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCommentsViewModelTests.swift; sourceTree = "<group>"; };
+		154B029926465314000C8374 /* ResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultModel.swift; sourceTree = "<group>"; };
+		154B02AE264662A6000C8374 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		154B02B1264662CB000C8374 /* ServiceUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceUrl.swift; sourceTree = "<group>"; };
+		154B02B42646643A000C8374 /* PostCommentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCommentsViewModel.swift; sourceTree = "<group>"; };
+		154B02BB2646698F000C8374 /* PostCommentsServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCommentsServiceManager.swift; sourceTree = "<group>"; };
+		154B02BE26466A8A000C8374 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		15BC222F264642B7003361A1 /* Virtusa_Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Virtusa_Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15BC2232264642B7003361A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15BC2234264642B7003361A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		15BC2236264642B7003361A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15BC2239264642B7003361A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15BC223B264642BC003361A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15BC223E264642BC003361A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15BC2240264642BC003361A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15BC224B2646435B003361A1 /* NameEmailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameEmailTableViewCell.swift; sourceTree = "<group>"; };
+		15BC224C2646435B003361A1 /* NameEmailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NameEmailTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1531F6CE26469A45001DFF95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15BC222C264642B7003361A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1531F6D226469A45001DFF95 /* Virtusa_TaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				1531F6D326469A45001DFF95 /* Virtusa_TaskTests.swift */,
+				1531F6DD26469A7B001DFF95 /* ViewControllerTests.swift */,
+				1531F6E826469B03001DFF95 /* CommentViewControllerTests.swift */,
+				1531F6EC26469E1F001DFF95 /* NameEmailTableViewCellTests.swift */,
+				1531F6F026469FE3001DFF95 /* UtilitiesTests.swift */,
+				1531F6FA2646A248001DFF95 /* ResultModelTests.swift */,
+				1531F6FE2646A2D7001DFF95 /* PostCommentsViewModelTests.swift */,
+				1531F6D526469A45001DFF95 /* Info.plist */,
+			);
+			path = Virtusa_TaskTests;
+			sourceTree = "<group>";
+		};
+		154B029526464FC5000C8374 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				154B02AE264662A6000C8374 /* Constants.swift */,
+				154B02B1264662CB000C8374 /* ServiceUrl.swift */,
+				154B02BE26466A8A000C8374 /* Utilities.swift */,
+				1531F6F42646A0AB001DFF95 /* Posts.json */,
+				154B02BB2646698F000C8374 /* PostCommentsServiceManager.swift */,
+				1531F67E26467DF7001DFF95 /* GenericMethods.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		15BC2226264642B7003361A1 = {
+			isa = PBXGroup;
+			children = (
+				15BC2231264642B7003361A1 /* Virtusa_Task */,
+				1531F6D226469A45001DFF95 /* Virtusa_TaskTests */,
+				15BC2230264642B7003361A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15BC2230264642B7003361A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15BC222F264642B7003361A1 /* Virtusa_Task.app */,
+				1531F6D126469A45001DFF95 /* Virtusa_TaskTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15BC2231264642B7003361A1 /* Virtusa_Task */ = {
+			isa = PBXGroup;
+			children = (
+				154B029526464FC5000C8374 /* NetworkManager */,
+				15BC224A264642FE003361A1 /* Controller */,
+				15BC2248264642E1003361A1 /* ViewModel */,
+				15BC2247264642D7003361A1 /* Model */,
+				15BC2249264642F3003361A1 /* View */,
+				15BC2232264642B7003361A1 /* AppDelegate.swift */,
+				15BC2234264642B7003361A1 /* SceneDelegate.swift */,
+				15BC2238264642B7003361A1 /* Main.storyboard */,
+				15BC223B264642BC003361A1 /* Assets.xcassets */,
+				15BC223D264642BC003361A1 /* LaunchScreen.storyboard */,
+				15BC2240264642BC003361A1 /* Info.plist */,
+			);
+			path = Virtusa_Task;
+			sourceTree = "<group>";
+		};
+		15BC2247264642D7003361A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				154B029926465314000C8374 /* ResultModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15BC2248264642E1003361A1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				154B02B42646643A000C8374 /* PostCommentsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		15BC2249264642F3003361A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15BC224B2646435B003361A1 /* NameEmailTableViewCell.swift */,
+				15BC224C2646435B003361A1 /* NameEmailTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15BC224A264642FE003361A1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				15BC2236264642B7003361A1 /* ViewController.swift */,
+				1531F68B264697C2001DFF95 /* CommentViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1531F6D026469A45001DFF95 /* Virtusa_TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1531F6D826469A45001DFF95 /* Build configuration list for PBXNativeTarget "Virtusa_TaskTests" */;
+			buildPhases = (
+				1531F6CD26469A45001DFF95 /* Sources */,
+				1531F6CE26469A45001DFF95 /* Frameworks */,
+				1531F6CF26469A45001DFF95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1531F6D726469A45001DFF95 /* PBXTargetDependency */,
+			);
+			name = Virtusa_TaskTests;
+			productName = Virtusa_TaskTests;
+			productReference = 1531F6D126469A45001DFF95 /* Virtusa_TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15BC222E264642B7003361A1 /* Virtusa_Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15BC2243264642BC003361A1 /* Build configuration list for PBXNativeTarget "Virtusa_Task" */;
+			buildPhases = (
+				15BC222B264642B7003361A1 /* Sources */,
+				15BC222C264642B7003361A1 /* Frameworks */,
+				15BC222D264642B7003361A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Virtusa_Task;
+			productName = Virtusa_Task;
+			productReference = 15BC222F264642B7003361A1 /* Virtusa_Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15BC2227264642B7003361A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					1531F6D026469A45001DFF95 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 15BC222E264642B7003361A1;
+					};
+					15BC222E264642B7003361A1 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 15BC222A264642B7003361A1 /* Build configuration list for PBXProject "Virtusa_Task" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15BC2226264642B7003361A1;
+			productRefGroup = 15BC2230264642B7003361A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15BC222E264642B7003361A1 /* Virtusa_Task */,
+				1531F6D026469A45001DFF95 /* Virtusa_TaskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1531F6CF26469A45001DFF95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15BC222D264642B7003361A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15BC223F264642BC003361A1 /* LaunchScreen.storyboard in Resources */,
+				1531F6F52646A0AB001DFF95 /* Posts.json in Resources */,
+				15BC223C264642BC003361A1 /* Assets.xcassets in Resources */,
+				15BC223A264642B7003361A1 /* Main.storyboard in Resources */,
+				15BC224E2646435B003361A1 /* NameEmailTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1531F6CD26469A45001DFF95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1531F6E926469B03001DFF95 /* CommentViewControllerTests.swift in Sources */,
+				1531F6F126469FE3001DFF95 /* UtilitiesTests.swift in Sources */,
+				1531F6FB2646A248001DFF95 /* ResultModelTests.swift in Sources */,
+				1531F6FF2646A2D7001DFF95 /* PostCommentsViewModelTests.swift in Sources */,
+				1531F6ED26469E1F001DFF95 /* NameEmailTableViewCellTests.swift in Sources */,
+				1531F6DE26469A7B001DFF95 /* ViewControllerTests.swift in Sources */,
+				1531F6D426469A45001DFF95 /* Virtusa_TaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15BC222B264642B7003361A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15BC2237264642B7003361A1 /* ViewController.swift in Sources */,
+				154B02B52646643A000C8374 /* PostCommentsViewModel.swift in Sources */,
+				15BC2233264642B7003361A1 /* AppDelegate.swift in Sources */,
+				1531F67F26467DF7001DFF95 /* GenericMethods.swift in Sources */,
+				154B029A26465314000C8374 /* ResultModel.swift in Sources */,
+				154B02BC2646698F000C8374 /* PostCommentsServiceManager.swift in Sources */,
+				154B02BF26466A8A000C8374 /* Utilities.swift in Sources */,
+				15BC2235264642B7003361A1 /* SceneDelegate.swift in Sources */,
+				1531F68C264697C2001DFF95 /* CommentViewController.swift in Sources */,
+				154B02B2264662CB000C8374 /* ServiceUrl.swift in Sources */,
+				15BC224D2646435B003361A1 /* NameEmailTableViewCell.swift in Sources */,
+				154B02AF264662A6000C8374 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1531F6D726469A45001DFF95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15BC222E264642B7003361A1 /* Virtusa_Task */;
+			targetProxy = 1531F6D626469A45001DFF95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15BC2238264642B7003361A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15BC2239264642B7003361A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15BC223D264642BC003361A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15BC223E264642BC003361A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1531F6D926469A45001DFF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7GK4U4DQ5X;
+				INFOPLIST_FILE = Virtusa_TaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nalagatla-s.Virtusa-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Virtusa_Task.app/Virtusa_Task";
+			};
+			name = Debug;
+		};
+		1531F6DA26469A45001DFF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7GK4U4DQ5X;
+				INFOPLIST_FILE = Virtusa_TaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nalagatla-s.Virtusa-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Virtusa_Task.app/Virtusa_Task";
+			};
+			name = Release;
+		};
+		15BC2241264642BC003361A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15BC2242264642BC003361A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15BC2244264642BC003361A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7GK4U4DQ5X;
+				INFOPLIST_FILE = Virtusa_Task/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nalagatla-s.Virtusa-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15BC2245264642BC003361A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7GK4U4DQ5X;
+				INFOPLIST_FILE = Virtusa_Task/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nalagatla-s.Virtusa-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1531F6D826469A45001DFF95 /* Build configuration list for PBXNativeTarget "Virtusa_TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1531F6D926469A45001DFF95 /* Debug */,
+				1531F6DA26469A45001DFF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15BC222A264642B7003361A1 /* Build configuration list for PBXProject "Virtusa_Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15BC2241264642BC003361A1 /* Debug */,
+				15BC2242264642BC003361A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15BC2243264642BC003361A1 /* Build configuration list for PBXNativeTarget "Virtusa_Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15BC2244264642BC003361A1 /* Debug */,
+				15BC2245264642BC003361A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15BC2227264642B7003361A1 /* Project object */;
+}
